@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #95d5b2;
+}
+.container {
+  font-family: "Sofia";
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate((-50%, -50%));
+  font-size: 70px;
+}
