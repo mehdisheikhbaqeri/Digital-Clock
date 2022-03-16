@@ -12,7 +12,7 @@ function displayTime() {
   }
   document.getElementById("hours").textContent = hrs;
   document.getElementById("minutes").textContent = min;
-  // use query selector
+  // use query selector //
   document.querySelector(".seconds").textContent = sec;
 }
 setInterval(displayTime, 10);
