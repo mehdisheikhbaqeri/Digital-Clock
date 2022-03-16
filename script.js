@@ -12,6 +12,6 @@ function displayTime() {
   }
   document.getElementById("hours").textContent = hrs;
   document.getElementById("minutes").textContent = min;
-  document.getElementById("seconds").textContent = sec;
+  document.querySelector(".seconds").textContent = sec;
 }
 setInterval(displayTime, 10);
